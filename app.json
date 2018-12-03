@@ -1,0 +1,23 @@
+{
+  "name": "WizeBot on Heroku",
+  "description": "Chatbot for Telegram, which can easily be deployed to Heroku.",
+  "image": "heroku/python",
+  "env": {
+    "TELEGRAM_BOT_TOKEN": {
+      "description": "The secret key for Telegram API.",
+      "value": "secret"
+    },
+    "SECRET_KEY": {
+      "description": "The secret key for Django.",
+      "value": "secret"
+    },
+    "GOOGLE_CX_CODE": {
+      "description": "Google CX code",
+      "value": "secret"
+    },
+    "GOOGLE_DEVELOPER_KEY": {
+      "description": "Google developer key",
+      "value": "secret"
+    }
+  }
+}

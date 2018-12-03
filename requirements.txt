@@ -1,0 +1,9 @@
+django
+django-heroku
+django-environ
+gunicorn
+requests
+telepot
+fuzzywuzzy
+python-Levenshtein
+Google-Images-Search
